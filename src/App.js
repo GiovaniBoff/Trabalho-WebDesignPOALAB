@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './screen-field/header';
-import Card from './screen-field/cards';
+import About from './screen-field/About';
 
 import './general.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header/>
       <section className="delimiter">
-        <Card title="Titulo"/>
+        <About />
       </section>
       
     </div>
