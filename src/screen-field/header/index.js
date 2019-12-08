@@ -2,7 +2,7 @@ import React from 'react';
 import * as Styled from './style';
 import logo from '../../img/logo.svg';
 
-const header = () => (
+const header = (props) => (
     <Styled.Header>
         <Styled.HeaderContent>
             <Styled.LogoBox>
