@@ -33,4 +33,10 @@ export const LogoBox = Styled.div`
 
 export const NavItem = Styled.a`
     padding: 10px 15px;
+    transition: all ease-in 0.3s;
+    cursor: pointer;
+    &:hover {
+        background: white;
+        color: #458C8C;
+    }
 `;
