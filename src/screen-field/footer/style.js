@@ -5,7 +5,6 @@ export const footer = Styled.footer`
     background: #458C8C;
     height: 73px;
 
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -30,7 +29,7 @@ export const LogoBox = Styled.div`
     }
 `;
 
-export const Titulo = Styled.b`
+export const title = Styled.b`
     position: relative;
     width: 87px;
     height: 40px;
@@ -40,25 +39,38 @@ export const Titulo = Styled.b`
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 14px;
-
+    line-height: 2px;
     color: #FFFFFF;
     `;
 
-export const conteudo= Styled.b`
+export const content = Styled.b`
     position: relative;
     width: 87px;
     height: 40px;
-
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 8px;
-    line-height: 14px;
-
+    line-height: 8px;
     color: #FFFFFF;
 `;
+
+export const ifrs = Styled.b`
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 87px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 8px;
+    color: #FFFFFF;
+`;
+
+
+
 
 
 
