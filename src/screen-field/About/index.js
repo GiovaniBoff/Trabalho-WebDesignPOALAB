@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from '../../components/Cards';
 import BackgroundImage from '../../img/laserWooden.jpg';
-import Icon from '../../img/engineIcon.svg';
+import Icon from '../../img/aboutIcon.svg';
 
 const About = () => (
     <Cards title="Sobre" imgBackground={BackgroundImage} icon={Icon}>
