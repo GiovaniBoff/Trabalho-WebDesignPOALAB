@@ -3,7 +3,6 @@ import Styled from 'styled-components';
 
 export const Container = Styled.div`
     width: 100%;
-    width: 100%;
     margin: 15px auto;
     padding: 20px;
     justify-content: space-around;
@@ -13,7 +12,7 @@ export const Container = Styled.div`
     background-size: cover;
     background-attachment: fixed;
     &:first-child{
-    margin-top: 100px;
+    margin-top: 20px;
     }
 `
 
