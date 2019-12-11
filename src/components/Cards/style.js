@@ -13,7 +13,7 @@ export const Container = Styled.div`
     background-size: cover;
     background-attachment: fixed;
     &:first-child{
-    margin-top: 100px;
+    margin-top: 0px;
     }
 `
 
@@ -33,6 +33,7 @@ export const CardTitle = Styled.h4`
     background-color: #458C8C;
     color: #ffff;
     text-align: center;
+    max-width: 100%;
 `
 export const IconBox = Styled.div`
     position: absolute;
