@@ -3,7 +3,6 @@ import Styled from 'styled-components';
 
 export const Container = Styled.div`
     width: 100%;
-    width: 100%;
     margin: 15px auto;
     padding: 20px;
     justify-content: space-around;
