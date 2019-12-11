@@ -8,7 +8,6 @@ const card = ({
     imgBackground,
     icon,
 }) => (
-
     <>
         <Styled.Container img={imgBackground}>
             <Styled.ContainerCard>
@@ -18,7 +17,8 @@ const card = ({
                         <img alt="Icone" src={icon} />
                     </Styled.IconBox>
                 </Styled.CardTitle>
-                {children}
+                
+                    {children}
             </Styled.ContainerCard>     
         </Styled.Container>
     </>
