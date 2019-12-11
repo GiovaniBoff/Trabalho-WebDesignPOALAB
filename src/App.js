@@ -3,7 +3,7 @@ import Header from './screen-field/header';
 import About from './screen-field/About';
 import OpenDay from './screen-field/OpenDay';
 import Equipament from './screen-field/Equipament';
-
+import Footer from './screen-field/footer';
 import './general.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
