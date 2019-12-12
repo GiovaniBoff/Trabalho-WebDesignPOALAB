@@ -8,20 +8,18 @@ const card = ({
     imgBackground,
     icon,
 }) => (
-    <>
-        <Styled.Container img={imgBackground}>
-            <Styled.ContainerCard>
-                <Styled.CardTitle>
-                    {title}
-                    <Styled.IconBox>
-                        <img alt="Icone" src={icon} />
-                    </Styled.IconBox>
-                </Styled.CardTitle>
-                
-                    {children}
-            </Styled.ContainerCard>     
-        </Styled.Container>
-    </>
+    <Styled.Container img={imgBackground}>
+        <Styled.ContainerCard>
+            <Styled.CardTitle>
+                {title}
+                <Styled.IconBox>
+                    <img alt="Icone" src={icon} />
+                </Styled.IconBox>
+            </Styled.CardTitle>
+            
+                {children}
+        </Styled.ContainerCard>     
+    </Styled.Container>
 );
 
 card.propTypes = {
