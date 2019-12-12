@@ -1,11 +1,13 @@
 import Styled from 'styled-components';
 
+
 export const Container= Styled.div`
     display: flex;
     width: 100%;
     padding: 10px;
     margin: 10px auto;
     justify-content: space-evenly;
+    flex-wrap: wrap;    
 `
 
 export const imgContainer = Styled.div`
@@ -13,6 +15,9 @@ export const imgContainer = Styled.div`
     max-width: 400px;
     img{
         max-width: 100%;
+    }
+    @media screen and (max-width: 780px) {
+        width: 100%;
     }
 `
 
@@ -26,6 +31,8 @@ export const textContainer = Styled.div`
         margin: 0px;
     }
 
-
+    @media screen and (max-width: 780px) {
+        width: 100%;
+    }
 `
 

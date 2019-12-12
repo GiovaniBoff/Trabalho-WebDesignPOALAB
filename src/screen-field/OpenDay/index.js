@@ -5,7 +5,7 @@ import Icon from '../../img/openDayIcon.svg';
 import ImagePoaLab from '../../img/DSC_4946.jpg';
 import * as Styled from './styled';
 const OpenDay = () => (
-    <Cards title="Open Day" imgBackground={BackgroundImage} icon={Icon}>
+    <Cards id="OpenDay" title="Open Day" imgBackground={BackgroundImage} icon={Icon}>
         <Styled.Container>
             <Styled.imgContainer>
                 <img alt='Imagem Laboratorio PoaLab' src={ImagePoaLab}/>

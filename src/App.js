@@ -14,13 +14,16 @@ function App() {
     <div>
       <Header/>
       <section className="delimiter">
-        <LazyLoad offset={-180} height="420" placeholder={<Spinner animation="border"/>}>
+        <span id="About"/>
+        <LazyLoad offset={-100} height="420" placeholder={<Spinner animation="border"/>}>
           <About />
         </LazyLoad>
-        <LazyLoad offset={-180} height="420" placeholder={<Spinner animation="border"/>}>
+        <span id="Equipments"/>
+        <LazyLoad offset={-100} height="420" placeholder={<Spinner animation="border"/>}>
           <Equipament />
         </LazyLoad>
-        <LazyLoad offset={-180} height="420" placeholder={<Spinner animation="border"/>}>
+        <span id="OpenDay"/>
+        <LazyLoad offset={-100} height="420" placeholder={<Spinner animation="border"/>}>
           <OpenDay />
         </LazyLoad>
       </section>

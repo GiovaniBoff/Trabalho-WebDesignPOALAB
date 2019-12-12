@@ -9,9 +9,9 @@ const header = (props) => (
                 <img alt='Logo do Poalab' src={logo}/> 
             </Styled.LogoBox>
             <Styled.NavBar>
-                <Styled.NavItem>Sobre</Styled.NavItem>
-                <Styled.NavItem>Equipamentos</Styled.NavItem>
-                <Styled.NavItem>Contatos</Styled.NavItem>
+                <Styled.NavItem href="#About">Sobre</Styled.NavItem>
+                <Styled.NavItem href="#Equipments">Equipamentos</Styled.NavItem>
+                <Styled.NavItem href="#OpenDay">Open day</Styled.NavItem>
             </Styled.NavBar>
         </Styled.HeaderContent>
     </Styled.Header>
