@@ -5,7 +5,10 @@ export const Header = Styled.header`
     background: #458C8C;
     height: 73px;
     margin-bottom: 100px;
-    `;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+`;
 
 export const HeaderContent = Styled.div`
     display: flex;
@@ -35,6 +38,8 @@ export const LogoBox = Styled.div`
 export const NavItem = Styled.a`
     padding: 10px 15px;
     transition: all ease-in 0.3s;
+    color: inherit
+    text-decoration: none;
     cursor: pointer;
     &:hover {
         background: white;
