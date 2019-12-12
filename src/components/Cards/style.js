@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 export const Container = Styled.div`
     width: 100%;
     margin: 15px auto;
-    padding: 20px;
+    padding: 40px;
     justify-content: space-around;
     background-image: url(${props => props.img});
     background-position: fixed;
@@ -12,7 +12,7 @@ export const Container = Styled.div`
     background-size: cover;
     background-attachment: fixed;
     &:first-child{
-    margin-top: 0px;
+         margin-top: 0px;
     }
 `
 
