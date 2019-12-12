@@ -10,6 +10,10 @@ export const container = Styled.div`
     padding:10px;
     margin: 15px auto;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    @media screen and (max-width: 780px) {
+        width: 100%;
+    }
 `
 
 export const textContainer = Styled.div`
@@ -23,6 +27,9 @@ export const textContainer = Styled.div`
             color: black;
             margin:0px;
         }
+        @media screen and (max-width: 780px) {
+        width: 100%;
+    }
 `
 
 export const imgContainer = Styled.div `
@@ -31,6 +38,7 @@ export const imgContainer = Styled.div `
     display: flex;
     align-items: center;
     justify-content: center;
+    
     /* max-width: 400px;
     max-height: 300px;
     height: auto;
@@ -39,6 +47,10 @@ export const imgContainer = Styled.div `
     img{
         max-width:100%;
         max-height:400px;
+    }
+    @media screen and (max-width: 780px) {
+        width: 100%;
+        
     }
 
 `
