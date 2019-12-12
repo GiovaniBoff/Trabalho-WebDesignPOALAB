@@ -4,7 +4,6 @@ export const Header = Styled.header`
     padding: 15px 10px;
     background: #458C8C;
     height: 73px;
-    margin-bottom: 100px;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -32,6 +31,20 @@ export const LogoBox = Styled.div`
     height: 100%;
     img {
         max-width: 100%;
+    }
+    img:nth-child(2) {
+        display: none;
+    }
+
+    @media screen and (max-width: 450px) {
+        img:nth-child(1) {
+            display: none;
+        }
+
+        img:nth-child(2) {
+            display: block;
+            max-width: 40px;
+        }
     }
 `;
 

@@ -11,8 +11,12 @@ export const Container = Styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    &:first-child{
-         margin-top: 0px;
+    &:nth-child(2){
+        margin-top: 80px;
+    }
+
+    @media screen and (max-width: 450px) {
+        padding: 15px;
     }
 `
 
@@ -22,7 +26,10 @@ export const ContainerCard = Styled.div`
 	min-height: 360px;
 	padding: 15px
 	background-color: white;
-	background: rgba(255, 255, 255, 0.7);    
+    background: rgba(255, 255, 255, 0.7);
+    @media screen and (max-width: 450px) {
+        margin: 10px auto;
+    }
 `
 export const CardTitle = Styled.h4`
     position: relative;
@@ -47,13 +54,4 @@ export const IconBox = Styled.div`
         max-width: 100%;
     }
 `;
-
-export const CardImage = Styled.div`
-	position: relative;
-	float: left;
-	width: 300px;
-	heigth: 300px;
-	padding: 100px;
-	background: blue;
-`
 
