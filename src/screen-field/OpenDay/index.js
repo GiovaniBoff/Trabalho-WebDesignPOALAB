@@ -6,9 +6,9 @@ import ImagePoaLab from '../../img/DSC_4946.jpg';
 import * as Styled from './styled';
 const OpenDay = () => (
     <Cards title="Open Day" imgBackground={BackgroundImage} icon={Icon}>
-                 <Styled.Container>
+        <Styled.Container>
             <Styled.imgContainer>
-                <img alt='' src={ImagePoaLab}/>
+                <img alt='Imagem Laboratorio PoaLab' src={ImagePoaLab}/>
             </Styled.imgContainer>
             <Styled.textContainer>
                 <p>
